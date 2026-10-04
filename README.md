@@ -1,5 +1,8 @@
 # MFDS RMP Dashboard
 
+**▶ 대시보드 바로 보기: https://sjheo125.github.io/mfds-rmp-dashboard/**
+(이 저장소 화면에서 HTML 파일을 누르면 소스 코드가 보입니다. 위 주소로 들어가세요.)
+
 식품의약품안전처(MFDS) 위해성 관리계획(RMP), 의약품 심사결과, 급여 현황을 정리하고 미국 FDA REMS를 병기한 대시보드입니다.
 Dashboards on Korea MFDS Risk Management Plans (RMP) and drug approvals, with FDA REMS shown side by side.
 
@@ -9,8 +12,7 @@ Dashboards on Korea MFDS Risk Management Plans (RMP) and drug approvals, with FD
 
 | 파일 | 내용 |
 |---|---|
-| `index.html` | 안내 페이지 |
-| `RMP_Dashboard.html` | 한국 RMP ↔ 美 FDA REMS 비교 (위해성 항목, 재심사기간, ETASU 구분) |
+| `index.html` | RMP 대시보드 (사이트 첫 화면) — 한국 RMP ↔ 美 FDA REMS 비교 (위해성 항목, 재심사기간, ETASU 구분) |
 | `MFDS_Integrated_Dashboard.html` | 심사결과 + 재심사/RMP + 급여 약가 + REMS 통합 |
 
 각 HTML은 단독으로 열리는 정적 파일입니다. 차트는 Chart.js(CDN)를 사용하므로 인터넷 연결이 필요합니다.
